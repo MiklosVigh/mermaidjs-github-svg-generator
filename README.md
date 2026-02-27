@@ -50,5 +50,7 @@ and in the "rendered" folder you should find a subfolder with your chosen name a
 
 ## Examples
 1. [githubSequenceDiagrams](generated/githubSequenceDiagrams/README.md)
-2. [testFlowDiagram](generated/testFlowDiagram/README.md)
+1. [helloWorld](generated/helloWorld/README.md)
+1. [testFlowDiagram](generated/testFlowDiagram/README.md)
+1. [testSequenceDiagram](generated/testSequenceDiagram/README.md)
 

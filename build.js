@@ -34,7 +34,7 @@ function generateDirectoriesAndSVGCommands(filesToProcess) {
         }
         filesToProcess[directory].forEach((file) => {
             let destination = path.join(newDestinationDirectory, path.basename(file).replace(/\.[^/.]+$/, ""));
-            generationCommands.push(`./node_modules/.bin/mmdc -i ${file} -o ${destination}.svg`);
+            generationCommands.push(`./node_modules/.bin/mmdc -i ${file} -o ${destination}.svg -p puppeteer-config.json`);
         });
     });
 
@@ -87,7 +87,7 @@ function storeReadMeFiles(ReadMeFiles) {
 function generateSVGFiles(generationCommands) {
     generationCommands.forEach(command => {
         console.log(`Executing : ${command}`);
-        execSync(command, {timeout : 5000, stdio: 'inherit'});
+        execSync(command, {timeout : 60000, stdio: 'inherit'});
     });
 }
 

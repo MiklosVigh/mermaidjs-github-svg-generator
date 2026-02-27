@@ -49,6 +49,8 @@ npm run build
 and in the "rendered" folder you should find a subfolder with your chosen name and inside a README.md with your sequence diagram and the SVG sequence diagram itself.
 
 ## Examples
-1. [githubSequenceDiagrams](generated/githubSequenceDiagrams/README.md)
-2. [testFlowDiagram](generated/testFlowDiagram/README.md)
 
+1. [githubSequenceDiagrams](generated/githubSequenceDiagrams/README.md)
+2. [helloWorld](generated/helloWorld/README.md)
+3. [testFlowDiagram](generated/testFlowDiagram/README.md)
+4. [testSequenceDiagram](generated/testSequenceDiagram/README.md)
